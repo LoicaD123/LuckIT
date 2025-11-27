@@ -1,0 +1,72 @@
+/* ----------- GLOBAL ----------- */
+
+body {
+    font-family: Arial, sans-serif;
+    background: #9CAB71;
+    margin: 0;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    font-size: 28px;
+    margin-bottom: 25px;
+    font-weight: 600;
+}
+
+
+/* ----------- CONTAINER SIMPLE SANS FLIP ----------- */
+
+.flip-container {
+    width: 100%;
+    max-width: 420px;   /* largeur max de ta "carte" */
+}
+
+.flip-card {
+    width: 100%;
+}
+
+
+/* ----------- RECTO : GRILLE 3 COLONNES ----------- */
+
+.flip-front {
+    background: #ffffff;
+    padding: 15px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 colonnes */
+    gap: 10px;
+    place-items: center;
+    border-radius: 18px;
+}
+
+.logo-img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    border-radius: 8px;
+}
+
+
+/* ----------- VERSO (AFFICHÉ SOUS LA GRILLE) ----------- */
+
+.flip-back {
+    margin-top: 25px;
+    background: #151515;
+    color: white;
+    padding: 25px;
+    border-radius: 18px;
+}
+
+.flip-back h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.flip-back p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+ 
