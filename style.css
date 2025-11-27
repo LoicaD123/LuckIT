@@ -2,7 +2,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background: #9CAB71;
+    background: #B79980;
     margin: 0;
     padding: 40px 20px;
     display: flex;
@@ -69,4 +69,37 @@ body {
     line-height: 1.6;
 }
 
- 
+ .img-container {
+    position: relative; /* nécessaire pour positionner l'icône */
+    display: inline-block;
+}
+
+.info-icon {
+    position: absolute;
+    top:3px;     /* distance du haut */
+    right: 10px;   /* distance de la droite */
+    font-size: 14px;   /* taille de l’icône */
+    color: #000;       /* couleur de l’icône (blanc par exemple) */
+    padding:3px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.img-container {
+    position: relative;
+    display: inline-block;
+}
+
+.info-box {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 180px;
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 3px 12px rgba(0,0,0,0.2);
+    display: none; /* caché par défaut */
+    z-index: 10;
+}
+
