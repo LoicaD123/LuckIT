@@ -76,8 +76,8 @@ body {
 
 .info-icon {
     position: absolute;
-    top:3px;     /* distance du haut */
-    right: 10px;   /* distance de la droite */
+    top:4px;     /* distance du haut */
+    right: 4px;   /* distance de la droite */
     font-size: 14px;   /* taille de l’icône */
     color: #000;       /* couleur de l’icône (blanc par exemple) */
     padding:3px;
